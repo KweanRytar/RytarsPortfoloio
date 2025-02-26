@@ -1,0 +1,43 @@
+.container .testimonials__container{
+    width: 40%;
+    
+
+}
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    border-radius: 2rem;
+    user-select: none;
+    padding-bottom: 4rem;
+
+}
+.client__review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+.client__name{
+    color: rgb(18, 161, 204);
+    font-size: 1.5rem;
+}
+@media screen and (max-width:  1024px) {
+.container .testimonials__container{
+width: 60%;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .container .testimonials__container{
+    width: 10%;
+            }
+   .client__review {
+    width: 40%;
+   }
+.testimonial{
+    width: 70vw;
+    margin: 2rem auto 5rem;
+   
+}
+  }
+
