@@ -8,4 +8,5 @@ export default defineConfig({
     index: '../vite-project/index.html'
   },
   plugins: [react()],
+  base: '/RytarsPortfoloio/',
 })
